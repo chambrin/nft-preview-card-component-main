@@ -1,0 +1,101 @@
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+    background: none;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: hsl(216, 50%, 16%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+    border: solid 0;
+    border-radius: 25px;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top img {
+    width: 100%;
+    border-radius: 10px;
+}
+.text h1 {
+    margin: 20px 0 10px 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.text p {
+    margin: 10px 0 10px 0;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.content-bottom {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.content-bottom div {
+    display:flex;
+    flex-direction:row;
+}
+.content-bottom div img {
+    margin-right: 5px;
+}
+.content-bottom-1 {
+    color: hsl(178, 100%, 50%)
+}
+.content-bottom-2 {
+    color: hsl(215, 51%, 70%);
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer img {
+    width: 32px;
+    border: 0.5px solid #fff;
+    border-radius: 15px;
+}
+.footer p {
+    margin-left: 15px;
+    color: white;
+}
+.footer span {
+    color: hsl(215, 51%, 70%);
+}
+
+/* HOVER PART */
+.text h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+.footer p:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.top:hover {
+    cursor: pointer;
+}
+
